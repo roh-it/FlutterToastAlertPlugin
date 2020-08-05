@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - fluttertoastalert (0.0.1):
+    - Flutter
+    - SCLAlertView
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - fluttertoastalert (from `.symlinks/plugins/fluttertoastalert/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SCLAlertView
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  fluttertoastalert:
+    :path: ".symlinks/plugins/fluttertoastalert/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  fluttertoastalert: d495c35eb40caa4fac869197570c6773282cb6df
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: cb0e97ccc9814e29dc4dc09b991512d3243595af
+
+COCOAPODS: 1.9.3
