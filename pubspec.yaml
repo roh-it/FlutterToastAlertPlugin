@@ -1,5 +1,5 @@
 name: fluttertoastalert
-description: sample Flutter plugin.
+description: Flutter plugin which shows custom toast message for android (https://github.com/GrenderG/Toasty) and custom alert message for iOS (https://github.com/vikmeup/SCLAlertView-Swift).
 version: 0.0.1
 author:
 homepage:
