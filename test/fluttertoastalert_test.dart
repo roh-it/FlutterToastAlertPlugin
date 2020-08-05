@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sampleflutterplugin/sampleflutterplugin.dart';
+import 'package:fluttertoastalert/FlutterToastAlert.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('sampleflutterplugin');
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Sampleflutterplugin.platformVersion, '42');
+    expect(await FlutterToastAlert.platformVersion, '42');
   });
 }

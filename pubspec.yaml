@@ -1,8 +1,8 @@
 name: fluttertoastalert
 description: Flutter plugin which shows custom toast message for android (https://github.com/GrenderG/Toasty) and custom alert message for iOS (https://github.com/vikmeup/SCLAlertView-Swift).
 version: 0.0.1
-author:
-homepage:
+author: Rohit R
+homepage: https://github.com/roh-it/FlutterToastAlertPlugin
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -31,7 +31,7 @@ flutter:
         package: com.notify.fluttertoastalert
         pluginClass: FlutterToastAlertPlugin
       ios:
-        pluginClass: FlutterToastAlertPlugin
+        pluginClass: FlutterToastAlert
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

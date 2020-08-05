@@ -23,4 +23,8 @@ class FlutterToastAlert {
       'showIcon': toastShowIcon ?? false
     });
   }
+
+  static Future get platformVersion async{
+    await  platformVersion;
+  }
 }
